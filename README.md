@@ -10,7 +10,7 @@ If you wish to run it  without using docker then first you will need to install 
 ```shell
  $ pip install -r requirements.txt
 ```
-The download stopwords for the nltk module:
+Then download stopwords for the nltk module:
 ```shell
 $ python
 >>> import nltk

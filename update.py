@@ -30,3 +30,4 @@ def update_model():
             open(path.join('pkl_objects', 'classifier.pkl'), 'wb'),
             protocol=4
         )
+    return None

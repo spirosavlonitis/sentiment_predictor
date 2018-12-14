@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Movie Classification</title>
+	</head>
+	<body>
+		
+		{% from "_formhelpers.html" import render_field %}
+		<form method="post" action="/results" >
+			{{ render_field(form.moviereview, cols='30', rows='10') }}
+			<input type="submit" value="Submit review" name="submit_btn" />
+		</form>
+
+	</body>
+</html>
